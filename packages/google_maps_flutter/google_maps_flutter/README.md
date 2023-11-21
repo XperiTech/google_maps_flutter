@@ -31,7 +31,7 @@ Specify your API key in the application manifest `android/app/src/main/AndroidMa
 <manifest ...
   <application ...
     <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="YOUR KEY HERE"/>
+               android:value="APIKEY"/>
 ```
 
 ### iOS

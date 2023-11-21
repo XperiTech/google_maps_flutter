@@ -67,8 +67,8 @@ class TileOverlayBodyState extends State<TileOverlayBody> {
 
   @override
   Widget build(BuildContext context) {
-    Set<TileOverlay?> overlays = <TileOverlay?>{
-      if (_tileOverlay != null) _tileOverlay,
+    Set<TileOverlay> overlays = <TileOverlay>{
+      if (_tileOverlay != null) _tileOverlay!,
     };
     return Column(
       mainAxisSize: MainAxisSize.min,
